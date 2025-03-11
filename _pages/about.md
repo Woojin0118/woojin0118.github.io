@@ -9,7 +9,7 @@ redirect_from:
 ---
 Introduction
 ======
-I am a fourth-year student in the Department of Industrial Management Engineering, Computer Science and Engineering at Korea University.
+I am a fourth-year undergraduate student in the Department of Industrial Management Engineering, Computer Science and Engineering at Korea University.
 
 My research vision is to develop efficient AI methodologies for high performance even in data-scarce scenarios or with limited resources. I'm broadly interested in AI ideas, including CV and NLP, focusing on enhancing model performance and addressing challenges like learning efficiency or hallucination through techniques such as model architecture development and learning algorithm improvements (e.g., GAN, RAG).
 
