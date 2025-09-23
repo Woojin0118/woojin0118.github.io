@@ -13,13 +13,13 @@ I am a fourth-year undergraduate student in the Department of Industrial Managem
 
 My research vision is to develop efficient AI methodologies for high performance even in data-scarce scenarios or with limited resources. I'm broadly interested in AI ideas, including CV and NLP, focusing on enhancing model performance and addressing challenges like learning efficiency or hallucination through techniques such as model architecture development and learning algorithm improvements (e.g., GAN, RAG).
 
-Keywords: Efficient Learning, Multi-modal Learning, Generative Models
+Keywords: Efficient Learning, Multi-modal Learning, Generative Models, Large Language Model
 
 Education
 ======
 * Korea University, Seoul, Korea
   * BS in Industrial and Management Engineering, Computer Sciece and Engineering
-  * Mar. 2020 - Aug. 2025
+  * Mar. 2020 - Feb. 2026
 
 Experience
 =====
@@ -29,7 +29,7 @@ Experience
 
 * KUBIG, Korea University
   * Data Science & AI Society
-  * Jul. 2024 - present
+  * Jul. 2024 - Aug. 2025
 
 Honors
 =====
