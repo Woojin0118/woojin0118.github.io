@@ -30,8 +30,7 @@ Experience
 * PwC, Seoul, Korea
   * Research Assistant
   * Oct. 2025 - Dec. 2025
-  * Optimized Retrieval-Augmented Generation (RAG) workflows to enhance search precision and relevance.
-  * Built business-specific databases and designed LLM prompts to maximize output quality and alignment.
+  * Optimized RAG pipeline for an enterprise LLM chatbot
 
 * DMQA (Data Mining & Quality Analytics Lab), Korea University
   * Jinri Scholar (Undergraduate Research Intern)
@@ -54,6 +53,14 @@ Honors
 
 * K-Data Science Hackathon Creativity Award
   * Nov. 2024
+
+Certifications
+======
+* SQL Developer (SQLD), Korea Data Agency
+  * Apr. 2025
+
+* Advanced Data Analytics Semi-Professional (ADsP), Korea Data Agency
+  * Sep. 2024
 
 Skills
 ======
