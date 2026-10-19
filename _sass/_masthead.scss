@@ -3,7 +3,11 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
+  /* stays at the top while scrolling */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: $background-color;
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -14,7 +18,9 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+    padding: 0.25em 1em;
+    -webkit-transition: padding 0.2s ease-in-out;
+            transition: padding 0.2s ease-in-out;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -49,5 +55,17 @@
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+  }
+}
+
+/* compact masthead after scrolling down (toggled in scripts.html) */
+.masthead--compact {
+  .masthead__inner-wrap {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .greedy-nav a {
+    padding: 0.3rem 0;
   }
 }

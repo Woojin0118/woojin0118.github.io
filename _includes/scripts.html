@@ -1,4 +1,23 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
+<script>
+  $(function() {
+    // jump to in-page sections instantly instead of animating
+    $("a").unbind("click.smoothscroll");
+
+    // shrink the masthead after scrolling down
+    var $masthead = $(".masthead");
+    var updateMasthead = function() {
+      var y = $(window).scrollTop();
+      if (y > 40) {
+        $masthead.addClass("masthead--compact");
+      } else if (y < 10) {
+        $masthead.removeClass("masthead--compact");
+      }
+    };
+    $(window).on("scroll", updateMasthead);
+    updateMasthead();
+  });
+</script>
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
