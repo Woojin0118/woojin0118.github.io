@@ -1,22 +1,19 @@
-# main links links
+# main links: in-page sections of the About page
 main:
-  # - title: "Publications"
-  #   url: /publications/
+  - title: "Introduction"
+    url: /#introduction
 
-  # - title: "Talks"
-  #   url: /talks/    
+  - title: "Education"
+    url: /#education
 
-  # - title: "Teaching"
-  #   url: /teaching/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
-  # - title: "CV"
-  #   url: /cv/
-    
-  # - title: "Guide"
-  #   url: /markdown/
+  - title: "Experience"
+    url: /#experience
+
+  - title: "Honors"
+    url: /#honors
+
+  - title: "Skills"
+    url: /#skills
+
+  - title: "CV"
+    url: /files/Woojin_Lee_CV.pdf

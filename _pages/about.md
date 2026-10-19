@@ -9,7 +9,7 @@ redirect_from:
 ---
 Introduction
 ======
-I am a fourth-year undergraduate student in the Department of Industrial Management Engineering, Computer Science and Engineering at Korea University. (Program Completed, Degree Expected Feb 2026)
+I am a FICC Trader at Kiwoom Securities. I received my B.S. in Industrial and Management Engineering and Computer Science and Engineering from Korea University in Feb. 2026.
 
 My research vision is to develop efficient AI methodologies for high performance even in data-scarce scenarios or with limited resources. I'm broadly interested in AI ideas, including CV and NLP, focusing on enhancing model performance and addressing challenges like learning efficiency or hallucination through techniques such as model architecture development and learning algorithm improvements (e.g., GAN, RAG).
 
@@ -18,15 +18,25 @@ Keywords: Efficient Learning, Multi-modal Learning, Generative Models, Large Lan
 Education
 ======
 * Korea University, Seoul, Korea
-  * BS in Industrial and Management Engineering, Computer Sciece and Engineering
+  * B.S. in Industrial and Management Engineering, Computer Science and Engineering
   * Mar. 2020 - Feb. 2026
-  * (Program Completed, Degree Expected Feb 2026)
 
 Experience
 =====
-* DMQA (Data Mining & Quality Analysis Lab), Korea University
+* Kiwoom Securities Co., Ltd., Seoul, Korea
+  * FICC Trader
+  * Dec. 2025 - Present
+
+* PwC, Seoul, Korea
+  * Research Assistant
+  * Oct. 2025 - Dec. 2025
+  * Optimized Retrieval-Augmented Generation (RAG) workflows to enhance search precision and relevance.
+  * Built business-specific databases and designed LLM prompts to maximize output quality and alignment.
+
+* DMQA (Data Mining & Quality Analytics Lab), Korea University
   * Jinri Scholar (Undergraduate Research Intern)
   * Jul. 2024 - Jan. 2025
+  * Supervised by Prof. Seoungbum Kim
 
 * KUBIG, Korea University
   * Data Science & AI Society
