@@ -9,7 +9,7 @@ redirect_from:
 ---
 Introduction
 ======
-I am a FICC Trader at Kiwoom Securities. I analyze fixed-income market data, conduct research with multi-agent LLMs, and develop LLM chatbots for the trading desk. I received my B.S. in Industrial and Management Engineering and Computer Science and Engineering from Korea University in Feb. 2026.
+I am a FICC Trader at Kiwoom Securities. I analyze fixed-income market data, conduct research with multi-agent LLMs, and develop LLM chatbots for the trading desk.
 
 My research vision is to develop efficient AI methodologies for high performance even in data-scarce scenarios or with limited resources. I'm broadly interested in AI ideas, including CV and NLP, focusing on enhancing model performance and addressing challenges like learning efficiency or hallucination through techniques such as model architecture development and learning algorithm improvements (e.g., GAN, RAG).
 

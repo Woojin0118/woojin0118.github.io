@@ -16,6 +16,24 @@
     };
     $(window).on("scroll", updateMasthead);
     updateMasthead();
+
+    // place in-page link targets right below the sticky masthead
+    $(document).on("click", 'a[href*="#"]', function(e) {
+      var samePage = this.hostname === location.hostname &&
+        this.pathname.replace(/^\//, "") === location.pathname.replace(/^\//, "");
+      var $target = this.hash && $(this.hash);
+      if (!samePage || !$target || !$target.length) return;
+
+      e.preventDefault();
+      // switch to the compact masthead without animation so its final height can be measured
+      var $animated = $masthead.find(".masthead__inner-wrap, .greedy-nav a");
+      $animated.css("transition", "none");
+      $masthead.addClass("masthead--compact");
+      var top = $target.offset().top - $masthead.outerHeight() - 12;
+      window.scrollTo(0, Math.max(top, 0));
+      setTimeout(function() { $animated.css("transition", ""); }, 0);
+      if (history.pushState) history.pushState(null, "", this.hash);
+    });
   });
 </script>
 

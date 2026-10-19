@@ -189,6 +189,11 @@
     &:hover {
       color: $masthead-link-color-hover;
     }
+
+    /* no focus box on mouse click; keyboard focus still shows it */
+    &:focus:not(:focus-visible) {
+      outline: 0;
+    }
   }
 
   button {
