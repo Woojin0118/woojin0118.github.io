@@ -1,7 +1,7 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 <script>
   $(function() {
-    /* jump to in-page sections instantly instead of animating */
+    /* in-page scrolling is handled below (offset for the sticky masthead) */
     $("a").unbind("click.smoothscroll");
 
     /* shrink the masthead after scrolling down */
@@ -30,7 +30,7 @@
       $animated.css("transition", "none");
       $masthead.addClass("masthead--compact");
       var top = $target.offset().top - $masthead.outerHeight() - 12;
-      window.scrollTo(0, Math.max(top, 0));
+      $("html, body").stop().animate({ scrollTop: Math.max(top, 0) }, 400);
       setTimeout(function() { $animated.css("transition", ""); }, 0);
       if (history.pushState) history.pushState(null, "", this.hash);
     });
