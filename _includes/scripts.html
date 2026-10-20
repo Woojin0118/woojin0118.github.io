@@ -1,10 +1,10 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 <script>
   $(function() {
-    // jump to in-page sections instantly instead of animating
+    /* jump to in-page sections instantly instead of animating */
     $("a").unbind("click.smoothscroll");
 
-    // shrink the masthead after scrolling down
+    /* shrink the masthead after scrolling down */
     var $masthead = $(".masthead");
     var updateMasthead = function() {
       var y = $(window).scrollTop();
@@ -17,7 +17,7 @@
     $(window).on("scroll", updateMasthead);
     updateMasthead();
 
-    // place in-page link targets right below the sticky masthead
+    /* place in-page link targets right below the sticky masthead */
     $(document).on("click", 'a[href*="#"]', function(e) {
       var samePage = this.hostname === location.hostname &&
         this.pathname.replace(/^\//, "") === location.pathname.replace(/^\//, "");
@@ -25,7 +25,7 @@
       if (!samePage || !$target || !$target.length) return;
 
       e.preventDefault();
-      // switch to the compact masthead without animation so its final height can be measured
+      /* switch to the compact masthead without animation so its final height can be measured */
       var $animated = $masthead.find(".masthead__inner-wrap, .greedy-nav a");
       $animated.css("transition", "none");
       $masthead.addClass("masthead--compact");
